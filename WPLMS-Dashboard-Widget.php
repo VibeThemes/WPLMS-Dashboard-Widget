@@ -1,0 +1,30 @@
+<?php
+/*
+Plugin Name: WPLMS Dashboard Widget
+Plugin URI: http://www.Vibethemes.com
+Description: Boilerplate for Student/Instructor Dashboard Widgets for WPLMS theme
+Version: 1.0
+Author: VibeThemes
+Author URI: http://www.vibethemes.com
+License: MIT
+*/
+/*
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+ */
+
+if ( !defined( 'ABSPATH' ) ) exit;
+
+if( !defined('WPLMS_DASHBOARD_WIDGET_URL')){
+    define('WPLMS_DASHBOARD_WIDGET_URL',plugins_url().'/WPLMS-Dashboard-Widget');
+}
+
+include_once 'sample_widget.php';
+?>
